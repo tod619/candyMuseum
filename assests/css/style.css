@@ -1,8 +1,30 @@
 body {
   background: #f5d9df;
+  font-family: "Nunito", sans-serif;
 }
 
 /* Utility Classes */
 .uppercase {
   text-transform: uppercase;
+}
+
+/* Navbar */
+#main-nav {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#main-nav .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#main-nav .nav-link {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+#main-nav .nav-link:hover {
+  color: #ea1c2c;
 }
