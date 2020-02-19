@@ -1,6 +1,7 @@
 body {
   background: #f5d9df;
   font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
 
 /* Utility Classes */
@@ -27,4 +28,14 @@ body {
 
 #main-nav .nav-link:hover {
   color: #ea1c2c;
+}
+
+/* Heading Section */
+#heading-group span {
+  color: #ea1c2c;
+}
+
+#heading-group h1 {
+  font-weight: 100;
+  font-size: 4rem;
 }
