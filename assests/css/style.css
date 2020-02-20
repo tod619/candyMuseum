@@ -59,6 +59,13 @@ body {
 }
 /* End of Content Section */
 
+/* Footer */
+#main-footer {
+  background: rgb(222, 192, 222);
+  color: #fff;
+  font-weight: 100;
+}
+
 /* Scrolling Effect Class */
 .navbar.scrolled {
   background: rgb(222, 192, 222);
