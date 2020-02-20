@@ -229,6 +229,14 @@
     <script>
       //Get the current year for the copyright at the bottom of the page
       $("#year").text(new Date().getFullYear());
+
+      // Scroll effect for navbar
+      $(function() {
+        $(document).scroll(function() {
+          var $nav = $("#main-nav");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
     </script>
   </body>
 </html>
